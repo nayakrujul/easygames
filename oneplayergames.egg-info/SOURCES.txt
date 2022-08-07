@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+easygames/__init__.py
+easygames/easygames.py
+oneplayergames.egg-info/PKG-INFO
+oneplayergames.egg-info/SOURCES.txt
+oneplayergames.egg-info/dependency_links.txt
+oneplayergames.egg-info/entry_points.txt
+oneplayergames.egg-info/top_level.txt

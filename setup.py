@@ -4,13 +4,13 @@ long_description = 'A collection of 1-player games.'
 
 setup(
   name = 'oneplayergames',
-  version = '0.0.1',
+  version = '0.0.2',
   license='Apache',
   description = 'A collection of 1-player games',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
   url = 'https://github.com/nayakrujul/easygames',
-  download_url = '', # TODO: create release
+  download_url = 'https://github.com/nayakrujul/easygames/archive/refs/tags/v_01.tar.gz',
   keywords = ['game', 'games', '1-player'],
   install_requires=[
       ],
