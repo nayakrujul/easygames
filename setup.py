@@ -1,19 +1,18 @@
 from setuptools import setup, find_packages
 
-long_description = 'A file-based version of SQL for the command line.'
+long_description = 'A collection of 1-player games.'
 
 setup(
-  name = 'badsql-tools',
-  version = '5.1',
+  name = 'oneplayergames',
+  version = '0.0.1',
   license='Apache',
-  description = 'SQL but worse for the command line',
+  description = 'A collection of 1-player games',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
-  url = 'https://github.com/nayakrujul/badsql-tools',
-  download_url = 'https://github.com/nayakrujul/badsql-tools/archive/refs/tags/v_01.tar.gz',
-  keywords = ['database', 'SQL', 'file'],
+  url = 'https://github.com/nayakrujul/easygames',
+  download_url = '', # TODO: create release
+  keywords = ['game', 'games', '1-player'],
   install_requires=[
-          'badsql'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha', 
@@ -33,11 +32,7 @@ setup(
   packages = find_packages(),
   entry_points ={
             'console_scripts': [
-                'badsql_mkdb = badsql_tools.badsql_tools:mkdb',
-                'badsql_insertrow = badsql_tools.badsql_tools:insertrow',
-                'badsql_select = badsql_tools.badsql_tools:select',
-                'badsql_display = badsql_tools.badsql_tools:display',
-                'badsql_removerow = badsql_tools.badsql_tools:removerow',
+              
             ]
   }
 )
