@@ -4,7 +4,7 @@ long_description = 'A collection of 1-player games.'
 
 setup(
   name = 'oneplayergames',
-  version = '0.0.2',
+  version = '0.2.0',
   license='Apache',
   description = 'A collection of 1-player games',
   author = 'Rujul Nayak',
@@ -32,7 +32,7 @@ setup(
   packages = find_packages(),
   entry_points ={
             'console_scripts': [
-              
+                'play = easygames.easygames:from_terminal'
             ]
   }
 )
