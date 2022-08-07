@@ -81,21 +81,21 @@ The number that the user got up to before making a mistake
 
 ## From the terminal
 
-### Use the `play` command
+Use the `play` command
 
-#### Rock-Paper-Scissors
+### Rock-Paper-Scissors
 
 ```
 $ play rps
 ```
 
-#### Guess the number
+### Guess the number
 
 ```
 $ play gtn
 ```
 
-#### Fizz Buzz
+### Fizz Buzz
 
 ```
 $ play fb
